@@ -6,7 +6,6 @@ import discord4j.core.object.entity.channel.MessageChannel;
 
 public class LifeIsGameBot {
     public static void main(final String[] args) {
-        final String token = args[0];
         final DiscordClient client = DiscordClient.create(ServerInfo.TOKEN);
         final GatewayDiscordClient gateway = client.login().block();
 
