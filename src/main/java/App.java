@@ -4,7 +4,7 @@ import discord4j.core.event.domain.message.MessageCreateEvent;
 import discord4j.core.object.entity.Message;
 import discord4j.core.object.entity.channel.MessageChannel;
 
-public class LifeIsGameBot {
+public final class App {
     public static void main(final String[] args) {
         final DiscordClient client = DiscordClient.create(ServerInfo.TOKEN);
         final GatewayDiscordClient gateway = client.login().block();
