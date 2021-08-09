@@ -1,3 +1,4 @@
 .idea/**/workspace.xml
 .idea/**/tasks.xml
 /target/classes/ServerInfo.class
+/src/main/java/ServerInfo.java
